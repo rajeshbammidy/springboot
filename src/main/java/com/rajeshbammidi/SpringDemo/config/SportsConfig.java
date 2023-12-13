@@ -5,7 +5,7 @@ import com.rajeshbammidi.SpringDemo.common.SwimCoach;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration // Springboot will go through configuration class and fetches beans
 public class SportsConfig {
 
     @Bean
